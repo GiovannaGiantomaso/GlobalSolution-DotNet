@@ -9,7 +9,7 @@ Este projeto é um sistema de monitoramento de consumo de energia elétrica que 
   
 A proposta central é promover a conscientização sobre o uso de energia, incentivando hábitos sustentáveis por meio de uma interface simples e intuitiva.
 
-📋 ## Funcionalidades Principais
+📋 ##Funcionalidades Principais
 🔹 Registro Mensal de Consumo
 - Os usuários podem inserir manualmente o consumo de energia mensal.
 - Os dados são armazenados no banco de dados Oracle, garantindo integridade e persistência.
@@ -19,7 +19,7 @@ Exibe o consumo mensal e o total acumulado pelo usuário.
 🔹 Feedback sobre o Consumo
 - Feedbacks personalizados são fornecidos, incentivando o usuário a ajustar seus hábitos de uso de energia.
   
-🎯 ## Objetivo do Projeto
+🎯 ##Objetivo do Projeto
 O objetivo principal é promover a conscientização e incentivar o uso responsável de energia. Com um sistema simples e visualmente informativo, os usuários podem:
 
 - Monitorar o consumo mensal.
