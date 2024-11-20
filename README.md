@@ -1,13 +1,13 @@
 # Projeto de Monitoramento de Consumo de Energia
 
-## Descrição do Projeto
+## DescriÃ§Ã£o do Projeto
 
-Este projeto é um sistema de monitoramento de consumo de energia eletrica que permite aos usuarios:
+Este projeto Ã© um sistema de monitoramento de consumo de energia eletrica que permite aos usuarios:
 - Registrar manualmente o consumo mensal de energia.
-- Acompanhar a evolução do consumo ao longo do tempo.
+- Acompanhar a evoluÃ§Ã£o do consumo ao longo do tempo.
 - Receber feedbacks personalizados com base no consumo mensal.
 
-A proposta central é promover a conscientizacao sobre o uso de energia, incentivando habitos sustentaveis por meio de uma interface simples e intuitiva.
+A proposta central Ã© promover a conscientizacao sobre o uso de energia, incentivando habitos sustentaveis por meio de uma interface simples e intuitiva.
 
 ---
 
@@ -15,7 +15,7 @@ A proposta central é promover a conscientizacao sobre o uso de energia, incentiv
 
 ### Registro Mensal de Consumo
 - Os usuarios podem inserir manualmente o consumo de energia mensal.
-- Os dados sao armazenados no banco de dados Oracle, garantindo integridade e persistÃªncia.
+- Os dados sao armazenados no banco de dados Oracle, garantindo integridade e persistencia.
 - O sistema organiza os registros data, permitindo facil consulta ao historico.
 
 ### Historico de Consumo
@@ -29,7 +29,7 @@ A proposta central é promover a conscientizacao sobre o uso de energia, incentiv
 
 ##  Objetivo do Projeto
 
-O objetivo principal é promover a conscientização e incentivar o uso responsavel de energia. Com um sistema simples e visualmente informativo, os usuarios podem:
+O objetivo principal Ã© promover a conscientizaÃ§Ã£o e incentivar o uso responsavel de energia. Com um sistema simples e visualmente informativo, os usuarios podem:
 - Monitorar o consumo mensal.
 - Entender melhor os seus padroes de uso de energia.
 - Tomar decisoes mais sustentaveis para reduzir custos e ajudar o meio ambiente.
@@ -39,7 +39,7 @@ O objetivo principal é promover a conscientização e incentivar o uso responsavel
 
 .NET Core
 Oracle Database
-Swagger (para documentação de APIs)
+Swagger (para documentaÃ§Ã£o de APIs)
 Git
 
 ## ConfiguraÃ§Ã£o do Projeto
@@ -53,12 +53,11 @@ Certifique-se de que as seguintes ferramentas estao instaladas:
 
 ### Como Executar o Projeto
 
-1. Clone este repositório:
+1. Clone este repositÃ³rio:
 git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
 cd GsDotNet
 
 2. Configure o banco de dados Oracle:
-bImporte o script SQL disponível no repositório.
 Atualize as credenciais no arquivo appsettings.json.
 
 3. Compile e execute o projeto:
