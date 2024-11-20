@@ -70,3 +70,44 @@ dotnet run
    Clone este repositorio:
    git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
    cd GS-DOT-NET
+
+## EXEMPLOS DE JSON PARA UTILIZAR:
+
+### Usuário Energia
+- Criar Usuário
+{
+  "nome": "Maria Oliveira",
+  "email": "maria.oliveira@gmail.com",
+  "senha": "senhaSegura123"
+}
+
+- Atualizar Usuário
+{
+  "idUsuario": substitua pelo id gerado,
+  "nome": "Maria Oliveira Atualizada",
+  "email": "maria.oliveira.updated@gmail.com",
+  "senha": "novaSenha123"
+}
+
+### Consumo Energia
+- Criar Consumo
+
+{
+  "idUsuario": substitua pelo id gerado,
+  "consumoKwh": 120.75
+}
+
+### Histórico Consumo
+- Criar Histórico de Consumo
+
+{
+  "idUsuario": substitua pelo id gerado
+}
+
+### Feedback Consumo
+- Criar Feedback
+
+{
+  "idUsuario": substitua pelo id gerado,
+  "mensagemFeedback": "Parabens! Continue colaborando com a redução de energia."
+}
