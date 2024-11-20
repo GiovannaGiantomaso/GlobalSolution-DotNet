@@ -37,10 +37,10 @@ O objetivo principal é promover a conscientização e incentivar o uso responsa
 ---
 ## Tecnologias Utilizadas
 
-.NET Core
-Oracle Database
-Swagger (para documentação de APIs)
-Git
+- .NET Core
+- Oracle Database
+- Swagger (para documentação de APIs)
+- Git
 
 ## Configuração do Projeto
 
