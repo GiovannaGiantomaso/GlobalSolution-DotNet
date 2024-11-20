@@ -35,6 +35,12 @@ O objetivo principal é promover a conscientização e incentivar o uso responsável
 - Tomar decisões mais sustentáveis para reduzir custos e ajudar o meio ambiente.
 
 ---
+## Tecnologias Utilizadas
+
+.NET Core
+Oracle Database
+Swagger (para documentação de APIs)
+Git
 
 ## Configuração do Projeto
 
@@ -48,5 +54,12 @@ Certifique-se de que as seguintes ferramentas estão instaladas:
 ### Como Executar o Projeto
 
 1. Clone este repositório:
-   git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
-   cd GS-DOT-NET
+git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
+cd GsDotNet
+
+2. Configure o banco de dados Oracle:
+bImporte o script SQL disponível no repositório.
+Atualize as credenciais no arquivo appsettings.json.
+
+3. Compile e execute o projeto:
+dotnet run
