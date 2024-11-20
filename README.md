@@ -22,7 +22,7 @@ A proposta central é promover a conscientizacao sobre o uso de energia, incenti
 - Mostra o consumo mensal e o total do usuario 
 
 ### Feedback sobre o Consumo
-- O sistema compara o consumo atual com o mes anterior.
+- O sistema compara os consumos.
 - Feedbacks personalizados sao fornecidos, incentivando o usuário a ajustar seus habitos de uso de energia.
 
 ---
