@@ -1,56 +1,72 @@
-Projeto de Monitoramento de Consumo de Energia
+# Projeto de Monitoramento de Consumo de Energia
 
-📖 Descrição do Projeto
-Este projeto é um sistema de monitoramento de consumo de energia elétrica que permite aos usuários:
+## Descrição do Projeto
 
+Este projeto é um sistema de monitoramento de consumo de energia eletrica que permite aos usuarios:
 - Registrar manualmente o consumo mensal de energia.
 - Acompanhar a evolução do consumo ao longo do tempo.
 - Receber feedbacks personalizados com base no consumo mensal.
-  
-A proposta central é promover a conscientização sobre o uso de energia, incentivando hábitos sustentáveis por meio de uma interface simples e intuitiva.
 
-📋 ##Funcionalidades Principais
-🔹 Registro Mensal de Consumo
-- Os usuários podem inserir manualmente o consumo de energia mensal.
-- Os dados são armazenados no banco de dados Oracle, garantindo integridade e persistência.
-O sistema organiza os registros por data, permitindo fácil consulta ao histórico.
-🔹 Histórico de Consumo
-Exibe o consumo mensal e o total acumulado pelo usuário.
-🔹 Feedback sobre o Consumo
-- Feedbacks personalizados são fornecidos, incentivando o usuário a ajustar seus hábitos de uso de energia.
-  
-🎯 ##Objetivo do Projeto
-O objetivo principal é promover a conscientização e incentivar o uso responsável de energia. Com um sistema simples e visualmente informativo, os usuários podem:
+A proposta central é promover a conscientizacao sobre o uso de energia, incentivando habitos sustentaveis por meio de uma interface simples e intuitiva.
 
+---
+
+### Funcionalidades Principais
+
+### Registro Mensal de Consumo
+- Os usuarios podem inserir manualmente o consumo de energia mensal.
+- Os dados sao armazenados no banco de dados Oracle, garantindo integridade e persistencia.
+- O sistema organiza os registros data, permitindo facil consulta ao historico.
+
+### Historico de Consumo
+- Mostra o consumo mensal e o total do usuario 
+
+### Feedback sobre o Consumo
+- O sistema compara o consumo atual com o mes anterior.
+- Feedbacks personalizados sao fornecidos, incentivando o usuário a ajustar seus habitos de uso de energia.
+
+---
+
+##  Objetivo do Projeto
+
+O objetivo principal é promover a conscientização e incentivar o uso responsavel de energia. Com um sistema simples e visualmente informativo, os usuarios podem:
 - Monitorar o consumo mensal.
-- Entender melhor os seus padrões de uso de energia.
-Tomar decisões mais sustentáveis para reduzir custos e ajudar o meio ambiente.
+- Entender melhor os seus padroes de uso de energia.
+- Tomar decisoes mais sustentaveis para reduzir custos e ajudar o meio ambiente.
 
-🚀 ## Tecnologias Utilizadas
-- .NET Core
-- Oracle Database
-- Swagger (para documentação de APIs)
-- Git
-🛠️ ## Configuração do Projeto
-Pré-requisitos
-Certifique-se de que as seguintes ferramentas estão instaladas:
-- .NET SDK
-- Oracle Database
-- Git
-  
-## Como Executar o Projeto
-Clone este repositório:
+---
+ ## Tecnologias Utilizadas
+
+-.NET Core
+-Oracle Database
+-Swagger (para documentação de APIs)
+-Git
+
+## Configuração do Projeto
+
+### Pre-requisitos
+
+Certifique-se de que as seguintes ferramentas estao instaladas:
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [Oracle Database](https://www.oracle.com/database/)
+- [Git](https://git-scm.com/)
+
+### Como Executar o Projeto
+
+1. Clone este repositório:
 git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
 cd GsDotNet
 
-## Configure o banco de dados Oracle:
-
-Atualize as credenciais no arquivo appsettings.json:
+2. Configure o banco de dados Oracle:
+Atualize as credenciais no arquivo appsettings.json.
 {
     "ConnectionStrings": {
-        "OracleConnection": "Data Source=YOUR_ORACLE_SERVER;User ID=YOUR_USER;Password=YOUR_PASSWORD;"
+       "OracleConnection": "User Id= "seu user da fiap";Password= "sua senha";Data Source=oracle.fiap.com.br:1521/orcl"
     }
 }
-Execute o projeto:
 
+3. Compile e execute o projeto:
 dotnet run
+   Clone este repositorio:
+   git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
+   cd GS-DOT-NET
