@@ -70,7 +70,12 @@ dotnet run
    Clone este repositorio:
    git clone https://github.com/GiovannaGiantomaso/GlobalSolution-DotNet.git
    cd GS-DOT-NET
-
+   
+## INTEGRANTES:
+- RM 553369
+- RM 553764
+- RM 84059
+  
 ## EXEMPLOS DE JSON PARA UTILIZAR:
 
 ### Usuário Energia
