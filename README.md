@@ -10,7 +10,7 @@ Este projeto é um sistema de monitoramento de consumo de energia eletrica que p
 A proposta central é promover a conscientizacao sobre o uso de energia, incentivando habitos sustentaveis por meio de uma interface simples e intuitiva.
 
 ---
-### LINK DO VÍDEO: https://youtu.be/nmFkxyU-yi0
+### LINK DO VÍDEO PITCH: https://youtu.be/nmFkxyU-yi0
 
 ### Funcionalidades Principais
 
